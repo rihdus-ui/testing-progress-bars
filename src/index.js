@@ -5,4 +5,3 @@ import registerServiceWorker from './registerServiceWorker';
 import './base.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
