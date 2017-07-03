@@ -2,6 +2,7 @@
   "name": "react-svg-sandbox",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "axios": "^0.16.2",
     "c3": "^0.4.13",
@@ -62,7 +63,8 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy:pages": "git subtree push --prefix build origin gh-pages"
   },
   "jest": {
     "collectCoverageFrom": [
