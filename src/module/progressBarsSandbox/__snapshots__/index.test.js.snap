@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressbarView component should render 1`] = `
+<div
+  className="flexbox f-col flex1"
+>
+  <div
+    className="test-class-data-view"
+  >
+    <div
+      className="mb2 flexbox f-row text-class-progressbar-container"
+    >
+      <div
+        className="p1 bar-prefix active"
+      >
+        #
+        0
+      </div>
+      <div
+        className="progressBar"
+      >
+        <div
+          className="bar-container"
+        >
+          <svg
+            className="bar-svg"
+            height="100%"
+            preserveAspectRatio="none"
+            viewBox="0 0 100 10"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              className="path"
+              strokeDasharray="100"
+              strokeDashoffset={0}
+              strokeWidth="10"
+              style={
+                Object {
+                  "transform": "translateX(-61%)",
+                }
+              }
+              x1="0"
+              x2="100%"
+              y1="5"
+              y2="5"
+            />
+          </svg>
+        </div>
+        <div
+          className="bar-text"
+        >
+          <span>
+            78
+          </span>
+          /
+          <span>
+            200
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mb2 flexbox f-row text-class-progressbar-container"
+    >
+      <div
+        className="p1 bar-prefix "
+      >
+        #
+        1
+      </div>
+      <div
+        className="progressBar"
+      >
+        <div
+          className="bar-container"
+        >
+          <svg
+            className="bar-svg"
+            height="100%"
+            preserveAspectRatio="none"
+            viewBox="0 0 100 10"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              className="path"
+              strokeDasharray="100"
+              strokeDashoffset={0}
+              strokeWidth="10"
+              style={
+                Object {
+                  "transform": "translateX(-64.5%)",
+                }
+              }
+              x1="0"
+              x2="100%"
+              y1="5"
+              y2="5"
+            />
+          </svg>
+        </div>
+        <div
+          className="bar-text"
+        >
+          <span>
+            71
+          </span>
+          /
+          <span>
+            200
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mb2 flexbox f-row text-class-progressbar-container"
+    >
+      <div
+        className="p1 bar-prefix "
+      >
+        #
+        2
+      </div>
+      <div
+        className="progressBar"
+      >
+        <div
+          className="bar-container"
+        >
+          <svg
+            className="bar-svg"
+            height="100%"
+            preserveAspectRatio="none"
+            viewBox="0 0 100 10"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              className="path"
+              strokeDasharray="100"
+              strokeDashoffset={0}
+              strokeWidth="10"
+              style={
+                Object {
+                  "transform": "translateX(-57.5%)",
+                }
+              }
+              x1="0"
+              x2="100%"
+              y1="5"
+              y2="5"
+            />
+          </svg>
+        </div>
+        <div
+          className="bar-text"
+        >
+          <span>
+            85
+          </span>
+          /
+          <span>
+            200
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mb2 flexbox f-row text-class-progressbar-container"
+    >
+      <div
+        className="p1 bar-prefix "
+      >
+        #
+        3
+      </div>
+      <div
+        className="progressBar"
+      >
+        <div
+          className="bar-container"
+        >
+          <svg
+            className="bar-svg"
+            height="100%"
+            preserveAspectRatio="none"
+            viewBox="0 0 100 10"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              className="path"
+              strokeDasharray="100"
+              strokeDashoffset={0}
+              strokeWidth="10"
+              style={
+                Object {
+                  "transform": "translateX(-63.5%)",
+                }
+              }
+              x1="0"
+              x2="100%"
+              y1="5"
+              y2="5"
+            />
+          </svg>
+        </div>
+        <div
+          className="bar-text"
+        >
+          <span>
+            73
+          </span>
+          /
+          <span>
+            200
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flexbox f-row flex-wrap"
+    >
+      <div
+        className="mr2 mt2"
+      >
+        <div
+          className="select-container"
+        >
+          <select
+            className="selector"
+            id="bar-select"
+            name="selectBar"
+            onChange={[Function]}
+          >
+            <option
+              value={0}
+            >
+              Progress #
+              0
+            </option>
+            <option
+              value={1}
+            >
+              Progress #
+              1
+            </option>
+            <option
+              value={2}
+            >
+              Progress #
+              2
+            </option>
+            <option
+              value={3}
+            >
+              Progress #
+              3
+            </option>
+          </select>
+        </div>
+      </div>
+      <span
+        className="flex1"
+      />
+      <div
+        className="ib"
+      >
+        <button
+          className="button mt2 "
+          max={200}
+          onClick={[Function]}
+          value={31}
+        >
+          31
+        </button>
+        <button
+          className="button mt2 ml1"
+          max={200}
+          onClick={[Function]}
+          value={22}
+        >
+          22
+        </button>
+        <button
+          className="button mt2 ml1"
+          max={200}
+          onClick={[Function]}
+          value={-48}
+        >
+          -48
+        </button>
+        <button
+          className="button mt2 ml1"
+          max={200}
+          onClick={[Function]}
+          value={-25}
+        >
+          -25
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

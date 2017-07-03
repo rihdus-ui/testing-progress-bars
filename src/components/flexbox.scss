@@ -1,0 +1,21 @@
+.flexbox {
+  display: flex;
+}
+
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

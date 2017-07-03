@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progressbar component render 1`] = `
+<div
+  className="progressBar"
+>
+  <div
+    className="bar-container"
+  >
+    <svg
+      className="bar-svg"
+      height="100%"
+      preserveAspectRatio="none"
+      viewBox="0 0 100 10"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        className="path"
+        strokeDasharray="100"
+        strokeDashoffset={0}
+        strokeWidth="10"
+        style={
+          Object {
+            "transform": "translateX(NaN%)",
+          }
+        }
+        x1="0"
+        x2="100%"
+        y1="5"
+        y2="5"
+      />
+    </svg>
+  </div>
+  <div
+    className="bar-text"
+  >
+    <span />
+    /
+    <span />
+  </div>
+</div>
+`;
