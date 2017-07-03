@@ -1,0 +1,49 @@
+.select-container {
+  position: relative; }
+  .select-container::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    opacity: 0.4;
+    border-top: 7px solid #000000;
+    margin: 18px 12px; }
+
+.selector {
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px 40px 10px 20px;
+  font-size: 16px;
+  border: 2px solid #f56e6a;
+  background-color: #f5736f; }
+  .selector:focus {
+    outline: none;
+    background: #f5736f; }
+
+.button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #f5736f;
+  border: 2px solid #f56e6a;
+  transition: all 0.3s; }
+  .button:hover {
+    box-shadow: 0 3px 8px 0 rgba(202, 202, 202, 0.7);
+    transform: translateY(-1px); }
+    .button:hover:active {
+      transform: translateY(0px); }
+  .button:focus {
+    outline: none;
+    background: #f5736f; }
+
+.bar-prefix {
+  border: 2px solid #f56e6a; }
+  .bar-prefix.active {
+    background-color: #f56e6a; }
