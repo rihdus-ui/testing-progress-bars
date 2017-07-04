@@ -93,12 +93,16 @@ export default class View extends Component {
   onProgressValueUpdate(value) {
     const index = this.state.selectBarId;
     this.state.bars[index] += value;
+
+    /** Enforce underflow limit **/
     this.state.bars[index] = this.state.bars[index] < 0
       ? 0
       : this.state.bars[index];
-    this.state.bars[index] = this.state.bars[index] > this.state.maxVal
-      ? this.state.maxVal
-      : this.state.bars[index];
+
+
+    // this.state.bars[index] = this.state.bars[index] > this.state.maxVal
+    //   ? this.state.maxVal
+    //   : this.state.bars[index];
 
     this.setState({
       bars: [...this.state.bars]

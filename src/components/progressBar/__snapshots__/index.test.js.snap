@@ -16,7 +16,7 @@ exports[`Progressbar component render 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <line
-        className="path"
+        className="path "
         strokeDasharray="100"
         strokeDashoffset={0}
         strokeWidth="10"
@@ -35,9 +35,12 @@ exports[`Progressbar component render 1`] = `
   <div
     className="bar-text"
   >
-    <span />
-    /
-    <span />
+    <span>
+      NaN
+    </span>
+    <span>
+      %
+    </span>
   </div>
 </div>
 `;

@@ -40,7 +40,7 @@ describe('Progressbar', () => {
       testData.forEach((test, i) => {
 
         const testProgressBar = testProgressBars[i]
-          , progressText = `${test.value}/${test.max}` // 20/100
+          , progressText = `${Math.round(test.value * 100 / test.max)}%` // 20/100
           , progressLineStyleTransform = `translateX(-${(test.max - test.value) * 100 / test.max}%)` // translateX(-80%)
         ;
 

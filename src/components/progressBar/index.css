@@ -16,6 +16,8 @@
 .bar-svg .path {
   stroke: #bcdce5;
   transition: all 0.3s; }
+  .bar-svg .path.highlight-overflow {
+    stroke: #e55154; }
 
 .bar-text {
   z-index: 10;

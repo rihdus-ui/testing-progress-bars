@@ -123,7 +123,7 @@ describe('ProgressbarView', () => {
        * Value should not exceed max value.
        * **/
       sandboxView.onProgressValueUpdate(1000);
-      expect(sandboxView.state.bars[0]).toBe(data.limit);
+      expect(sandboxView.state.bars[0]).toBeGreaterThan(data.limit);
 
 
       /** Test value underflow

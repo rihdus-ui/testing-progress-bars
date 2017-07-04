@@ -1,4 +1,5 @@
 $bar-color: #bcdce5;
+$bar-overflow-color: #e55154;
 
 .progressBar {
   width: 100%;
@@ -20,6 +21,11 @@ $bar-color: #bcdce5;
   .path {
     stroke: $bar-color;
     transition: all 0.3s;
+
+    &.highlight-overflow {
+      stroke: $bar-overflow-color;
+    }
+
   }
 }
 
